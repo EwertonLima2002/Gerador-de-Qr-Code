@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Qr Code</title>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.rawgit.com/neocotic/qrious/v4.0.2/dist/qrious.min.js"></script>
+    
+
+</head>
+<body>
+    <div class="fundo">
+        <div class="container">
+            <div class="box">
+                <h1>Gerador de Qr Code</h1>
+                
+                    <input type="text" name="texto" id="texto" placeholder="Digite o texto">
+                    <button type="submit" value="Gerar" onclick="gerarQrCode()">
+                    Gerar Qr Code
+                    </button>
+                
+            </div>
+
+            
+        </div>
+        
+    </div>
+    <div class="box-resultado">
+     <img id="resultado">
+    </div>
+</body>
+</html>
